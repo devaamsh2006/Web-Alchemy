@@ -1,7 +1,7 @@
 const express = require("express");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
-const RentModel = require("../models/rentModel"); // Import RentModel
+const RentModel = require("../schemas/rental"); // Import RentModel
 require("dotenv").config();
 
 const router = express.Router();
