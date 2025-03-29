@@ -1,5 +1,6 @@
 const exp=require('express');
 const FarmerApp=exp.Router();
+const FarmerModel=require('../schemas/farmer');
 const bcrypt=require('bcryptjs');
 
 FarmerApp.post('/signup', async (req, res) => {
